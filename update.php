@@ -15,18 +15,8 @@ $sql = "UPDATE series SET  id='$id ,'nome='$nome' genero='$genero', foto='$foto'
 
 if ($conn->query($sql) === TRUE) {
 
-?>       
-
-<section>
-    <div class="container">
-        <p class="h3">Produto Atualizado com sucesso</p>
-        <a href="perfilfunc.php" class="btn btn-secondary">Volta ao Perfil</a>
-        <a href="atualizaprod.php" class="btn btn-secondary">Atulizar mais Produtos</a>
-
-    </div>
-
-</section>
-                                                     
+echo "atualizado com sucesso";
+}
 
 
 <?php
