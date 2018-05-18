@@ -29,6 +29,14 @@
     <label for="inputAddress">Foto</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Foto" name="foto">
   </div>
+   <div class="form-group">
+    <label for="inputAddress">Temporada</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Temporada" name="temporada">
+  </div>
+   <div class="form-group">
+    <label for="inputAddress">Descrição</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Descrição" name="descricao">
+  </div>
 
 
 <center>
