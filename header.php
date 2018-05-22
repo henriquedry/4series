@@ -44,15 +44,7 @@
       <li class="nav-item">
         <a class="nav-link" href="pagcad.php">Cadastro</a>
       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="login.php">Login</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="alterar.php">Alterar Série</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="exclui.php">Remover Série</a>
-      </li>
+    
     
     
       

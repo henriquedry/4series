@@ -5,7 +5,7 @@
 <?php
 include "conexao.php";
 
-$sql = "SELECT * FROM series";
+$sql = "SELECT * FROM series WHERE status = 'Ativo'";
 $result = $conn->query($sql);
 
 if($result->num_rows > 0){
@@ -23,6 +23,11 @@ if($result->num_rows > 0){
   <div class="card-body">
     <h5 class="card-title">'.$row['nome'].'</h5>
     <p class="card-text">Gênero:   '.$row['genero'].'</p>
+    <p class="text-center">
+      <a href="update.php?id='.$row['id'].'" class="btn btn-default">Editar</a>
+      &nbsp; &nbsp; &nbsp; &nbsp; 
+      <a href="exclui.php?id='.$row['id'].'" onclick="return confirm(\'Tem certeza???\')" class="btn btn-default">Apagar</a>
+    </p>
     
   </div>
 </div>
